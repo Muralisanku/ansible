@@ -1,4 +1,4 @@
-- name: variable from inventory
+- name: variables from PLAY level
   hosts: localhost
   tasks:
   - name: check varibales
