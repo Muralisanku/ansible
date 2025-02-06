@@ -1,4 +1,5 @@
-- name: install and run nginx
+# Installing nginx on EC2
+- name: installing and run nginx
   hosts: localhost
   become: yes
   tasks:
@@ -6,7 +7,7 @@
     ansible.builtin.package:
       name: nginx
       state: present
-  - name: run nginx
+  - name: enable the services
     ansible.builtin.service:
       name: nginx
       state: started
