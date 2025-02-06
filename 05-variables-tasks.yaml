@@ -10,4 +10,4 @@
     vars: #task level
       Course: "DevOps with AWS"
     ansible.builtin.debug:
-      msg: "Hi, I am learnig DevOps, Trainer is Sivakumar, Duration is 110Hrs"
+      msg: "Hi, I am learnig {{Course}}, Trainer is {{Trainer}}, Duration is {{Duration}}"
